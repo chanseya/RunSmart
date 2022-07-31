@@ -6,6 +6,24 @@
             align-items: center;
         }
     }
+    .benefits {
+        padding: 40px 0;
+    }
+    .consultaition {
+        padding: 50px 0;
+        &__desc {
+            text-align: center;
+        }
+    }
+    .feed-form {
+        margin-left: 50%;
+        transform: translateX(-150px);
+    }
+    .title {
+        font-size: 24px;
+        line-height: 34px;
+        text-align: center;
+    }
 }
 
 @media (max-width: 767px) {
@@ -34,9 +52,27 @@
             width: 180px;
         }
     }
+    .consultaition {
+        padding: 30px 0;
+    }
 }
 
 @media (max-width: 575px) {
+    .title {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .button_call {
+        width: 120px;
+        height: 25px;
+        font-size: 10px;
+    }
+    .button_main {
+        margin-top: 30px;
+        width: 200px;
+        height: 40px;
+        font-size: 12px;
+    }
     .header {
         &__contacts {
             a {
@@ -62,9 +98,6 @@
     }
     .benefits {
         padding: 20px 0 20px 0;
-        &__header {
-            font-size: 20px;
-        }
         &__cards {
             margin-top: 20px;
             flex-direction: column;
@@ -78,6 +111,12 @@
         }
         &__desc {
             margin-top: 10px;
+        }
+    }
+    .consultaition {
+        min-height: 500px;
+        &__desc {
+            font-size: 16px;
         }
     }
 }
