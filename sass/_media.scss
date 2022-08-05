@@ -24,6 +24,12 @@
         line-height: 34px;
         text-align: center;
     }
+    .carousel {
+        padding: 50px 0;
+    }
+    .prev, .next {
+        display: none;
+    }
 }
 
 @media (max-width: 767px) {
@@ -54,6 +60,13 @@
     }
     .consultaition {
         padding: 30px 0;
+    }
+    .carousel {
+        .tns-item {
+            img {
+                width: 100%;
+            }
+        }
     }
 }
 
